@@ -1,7 +1,7 @@
 #home{
-    width:100vw;
-    min-height: 100vh;
     display:flex;
+    max-width:100%;
+    min-height: 100vh;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
@@ -11,15 +11,19 @@
 
 }   
 .listItem{
+    font-size: medium;
     background-color:lavender;
     margin: 1em;
-    padding: 0 1em 0 1em; 
+    padding: 0.1em 1em 0.1em 1em; 
+    border-radius: 5%;
    /* animation: slide-in 5s ease-in;*/
 }
+
 .listLink{
     text-decoration: none;
-
+color: black;
 }
+
 .randomLink{
     text-decoration: none;
     margin-bottom: 2em;
