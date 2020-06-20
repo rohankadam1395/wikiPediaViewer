@@ -14,7 +14,7 @@
     background-color:lavender;
     margin: 1em;
     padding: 0 1em 0 1em; 
-    animation: slide-in 5s ease-in;
+   /* animation: slide-in 5s ease-in;*/
 }
 .listLink{
     text-decoration: none;
@@ -100,7 +100,7 @@ outline: none;
     color: red;
 
 }
-
+/*
 @keyframes slide-in{
     0% {
 opacity:0%;
@@ -110,4 +110,4 @@ transform: translateX(50px);
 opacity:100%;
     }
 
-}
+}*/
