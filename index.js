@@ -3,10 +3,10 @@ const bodyParser=require('body-parser');
 var app=express();
 app.use(bodyParser.json());
 
-
+/*
 app.get("/",(req,res)=>{
     res.send("Hello");
-})
+})*/
 app.get('/api',(req,res)=>{
     res.send({data:"Press Enter or click on search"});
 });
