@@ -10,6 +10,9 @@
 .listContainer{
 
 }   
+h3{
+    margin: 0.2em;
+}
 .listItem{
     font-size: medium;
     background-color:lavender;
